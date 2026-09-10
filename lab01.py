@@ -67,7 +67,6 @@ def array_sum(a: list[int]) -> int:
         total += x
     return total
 
-    raise NotImplementedError
 
 
 def array_max(a: list[int]) -> int:
@@ -77,7 +76,6 @@ def array_max(a: list[int]) -> int:
         if x > m:
             m = x
     return m
-    raise NotImplementedError
 
 
 def count_equal_pairs(a: list[int]) -> int:
@@ -89,7 +87,6 @@ def count_equal_pairs(a: list[int]) -> int:
             if a[i] == a[j]:
                 count += 1
     return count
-    raise NotImplementedError
 
 
 def binary_pow(x: int, n: int, mod: int | None = None) -> int:
@@ -114,7 +111,6 @@ def binary_pow(x: int, n: int, mod: int | None = None) -> int:
         n //= 2
 
     return result
-    raise NotImplementedError
 
 
 
